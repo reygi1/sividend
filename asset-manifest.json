@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/sividend/static/css/main.b2714057.chunk.css",
+    "main.js": "/sividend/static/js/main.e1ad9b1e.chunk.js",
+    "main.js.map": "/sividend/static/js/main.e1ad9b1e.chunk.js.map",
+    "runtime-main.js": "/sividend/static/js/runtime-main.1f4db485.js",
+    "runtime-main.js.map": "/sividend/static/js/runtime-main.1f4db485.js.map",
+    "static/css/2.32be65b0.chunk.css": "/sividend/static/css/2.32be65b0.chunk.css",
+    "static/js/2.e365ec92.chunk.js": "/sividend/static/js/2.e365ec92.chunk.js",
+    "static/js/2.e365ec92.chunk.js.map": "/sividend/static/js/2.e365ec92.chunk.js.map",
+    "index.html": "/sividend/index.html",
+    "precache-manifest.38d019934f2ba69f887342a04eaf3fd5.js": "/sividend/precache-manifest.38d019934f2ba69f887342a04eaf3fd5.js",
+    "service-worker.js": "/sividend/service-worker.js",
+    "static/css/2.32be65b0.chunk.css.map": "/sividend/static/css/2.32be65b0.chunk.css.map",
+    "static/css/main.b2714057.chunk.css.map": "/sividend/static/css/main.b2714057.chunk.css.map",
+    "static/js/2.e365ec92.chunk.js.LICENSE.txt": "/sividend/static/js/2.e365ec92.chunk.js.LICENSE.txt",
+    "static/media/demov.GIF": "/sividend/static/media/demov.e05947a9.GIF",
+    "static/media/exit.svg": "/sividend/static/media/exit.65b00001.svg",
+    "static/media/ham.svg": "/sividend/static/media/ham.aeba9664.svg",
+    "static/media/hero_image.svg": "/sividend/static/media/hero_image.ddfc11bc.svg",
+    "static/media/logo-white.svg": "/sividend/static/media/logo-white.30fecf94.svg",
+    "static/media/logo.svg": "/sividend/static/media/logo.aa4436e6.svg",
+    "static/media/nyse.svg": "/sividend/static/media/nyse.4cfccf82.svg",
+    "static/media/trend.svg": "/sividend/static/media/trend.af52058f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f4db485.js",
+    "static/css/2.32be65b0.chunk.css",
+    "static/js/2.e365ec92.chunk.js",
+    "static/css/main.b2714057.chunk.css",
+    "static/js/main.e1ad9b1e.chunk.js"
+  ]
+}
