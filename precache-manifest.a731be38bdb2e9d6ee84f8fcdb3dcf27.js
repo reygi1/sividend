@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7214515eccc7e32838700ad4158067f",
+    "revision": "f4fbd40214add9fe87dd502e1242d6f7",
     "url": "/sividend/index.html"
   },
   {
-    "revision": "30495e85239b3667410a",
+    "revision": "cbcca089fd097c74a624",
     "url": "/sividend/static/css/2.32be65b0.chunk.css"
   },
   {
-    "revision": "960e42fa4d35e6662863",
-    "url": "/sividend/static/css/main.b2714057.chunk.css"
+    "revision": "9c8751bb47f0bf5c2b01",
+    "url": "/sividend/static/css/main.294e6e7f.chunk.css"
   },
   {
-    "revision": "30495e85239b3667410a",
-    "url": "/sividend/static/js/2.e365ec92.chunk.js"
+    "revision": "cbcca089fd097c74a624",
+    "url": "/sividend/static/js/2.fe6591e9.chunk.js"
   },
   {
     "revision": "c87550333da8df8ab4c80bd1d6e9defb",
-    "url": "/sividend/static/js/2.e365ec92.chunk.js.LICENSE.txt"
+    "url": "/sividend/static/js/2.fe6591e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "960e42fa4d35e6662863",
-    "url": "/sividend/static/js/main.e1ad9b1e.chunk.js"
+    "revision": "9c8751bb47f0bf5c2b01",
+    "url": "/sividend/static/js/main.55fb9cb3.chunk.js"
   },
   {
     "revision": "0aa86c3b09f129d11b25",
