@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sividend/precache-manifest.a731be38bdb2e9d6ee84f8fcdb3dcf27.js"
+  "/sividend/precache-manifest.b173f494301369c6ed401e21a0ca4316.js"
 );
 
 self.addEventListener('message', (event) => {

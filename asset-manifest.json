@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sividend/static/css/main.294e6e7f.chunk.css",
+    "main.css": "/sividend/static/css/main.b2714057.chunk.css",
     "main.js": "/sividend/static/js/main.55fb9cb3.chunk.js",
     "main.js.map": "/sividend/static/js/main.55fb9cb3.chunk.js.map",
     "runtime-main.js": "/sividend/static/js/runtime-main.1f4db485.js",
@@ -9,10 +9,10 @@
     "static/js/2.fe6591e9.chunk.js": "/sividend/static/js/2.fe6591e9.chunk.js",
     "static/js/2.fe6591e9.chunk.js.map": "/sividend/static/js/2.fe6591e9.chunk.js.map",
     "index.html": "/sividend/index.html",
-    "precache-manifest.a731be38bdb2e9d6ee84f8fcdb3dcf27.js": "/sividend/precache-manifest.a731be38bdb2e9d6ee84f8fcdb3dcf27.js",
+    "precache-manifest.b173f494301369c6ed401e21a0ca4316.js": "/sividend/precache-manifest.b173f494301369c6ed401e21a0ca4316.js",
     "service-worker.js": "/sividend/service-worker.js",
     "static/css/2.32be65b0.chunk.css.map": "/sividend/static/css/2.32be65b0.chunk.css.map",
-    "static/css/main.294e6e7f.chunk.css.map": "/sividend/static/css/main.294e6e7f.chunk.css.map",
+    "static/css/main.b2714057.chunk.css.map": "/sividend/static/css/main.b2714057.chunk.css.map",
     "static/js/2.fe6591e9.chunk.js.LICENSE.txt": "/sividend/static/js/2.fe6591e9.chunk.js.LICENSE.txt",
     "static/media/demov.GIF": "/sividend/static/media/demov.e05947a9.GIF",
     "static/media/exit.svg": "/sividend/static/media/exit.65b00001.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.1f4db485.js",
     "static/css/2.32be65b0.chunk.css",
     "static/js/2.fe6591e9.chunk.js",
-    "static/css/main.294e6e7f.chunk.css",
+    "static/css/main.b2714057.chunk.css",
     "static/js/main.55fb9cb3.chunk.js"
   ]
 }
