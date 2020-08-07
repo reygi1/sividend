@@ -5,7 +5,8 @@
 > A website that gives you sentiment analysis score of stocks from News Articles, Twitter and Social Media for Traders (Stocktwits).
 
 Official website: [sividend.com](https://sividend.com) <br>
-Demo: [sividend.com/demo](https://sividend.com/demo)
+Demo: [sividend.com/demo](https://sividend.com/demo) <br>
+Back-end repo: 
 
 
 ## Functionalities
@@ -29,6 +30,14 @@ Demo: [sividend.com/demo](https://sividend.com/demo)
 - API list: Yahoo Finance, Twitter API, Google Finance, Google News, Stocktwits, Google Cloud
 - Sentiment analysis with Google Natural Language Processing
 - Database: MongoDB
+
+
+## Other Informations About The Project
+
+I built this project because I'm really interested in the financial world, stock market and the combination of technology and finance (FinTech). <br>
+This is mainly a front-end project and it's still in alpha phase and for demonstration purpose only. I will add new features and complete login and user authentication in the future. The purpose of this project was to focus on the front-end (Interactive chart, score graph, dashboard layout, mobile responsive, custom css, intuitive UI). <br>
+ 
+
 
 
 
