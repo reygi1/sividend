@@ -6,7 +6,7 @@
 
 Official website: [sividend.com](https://sividend.com) <br>
 Demo: [sividend.com/demo](https://sividend.com/demo) <br>
-Back-end repo: 
+Back-end repo:  [backend](https://github.com/rey2424/sividend-server/)<br>
 
 
 ## Functionalities
