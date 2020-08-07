@@ -1,13 +1,20 @@
 import React from 'react';
 import { Nav, initializeIcons } from '@fluentui/react';
 
+import {useDispatch } from 'react-redux'
+
+
+
 const navigationStyles = {
   root: {
-    height: '100vh',
+    height: '100%',
+    width: '16em',
     boxSizing: 'border-box',
-    border: '1px solid #eee',
     overflowY: 'auto',
-    paddingTop: '10vh',
+    paddingTop: '10em',
+    paddingLeft: '1.5em',
+    paddingRight: '1.5em'
+
   },
 };
 
@@ -22,7 +29,21 @@ const links = [
           iconName: 'News',
           styles: {
             root: {
-              fontSize: 20,
+              fontSize: 30,
+              color: '#106ebe',
+            },
+          }
+        }
+      },
+      {
+        name: 'My Account',
+        key: 'key2',
+        url: '/',
+        iconProps: {
+          iconName: 'AccountManagement',
+          styles: {
+            root: {
+              fontSize: 30,
               color: '#106ebe',
             },
           }
@@ -30,41 +51,27 @@ const links = [
       },
       {
         name: 'Settings',
-        key: 'key2',
-        url: '/',
-        iconProps: {
-          iconName: 'PlayerSettings',
-          styles: {
-            root: {
-              fontSize: 20,
-              color: '#106ebe',
-            },
-          }
-        }
-      },
-      {
-        name: 'Transfer',
         key: 'key3',
         url: '/',
         iconProps: {
-          iconName: 'SwitcherStartEnd',
+          iconName: 'Settings',
           styles: {
             root: {
-              fontSize: 20,
+              fontSize: 30,
               color: '#106ebe',
             },
           }
         }
       },
       {
-        name: 'Stats',
+        name: 'Logout',
         key: 'key4',
         url: '/',
         iconProps: {
-          iconName: 'StackedLineChart',
+          iconName: 'Leave',
           styles: {
             root: {
-              fontSize: 20,
+              fontSize: 30,
               color: '#106ebe',
             },
           }
@@ -74,15 +81,41 @@ const links = [
   },
 ];
 
-const Navigation = () => {
+const Navigation = () => { 
+const dispatch = useDispatch()
+
+function _onLinkClick(ev, item) {
+  
+  
+  if (item && item.name === 'Logout') {
+  }
+
+  
+  else {
+    
+  ev.preventDefault();  
+    if (item && item.name === 'Dashboard') {
+      dispatch({type: 'dashboard'})
+    }
+    if (item && item.name === 'My Account') {
+      dispatch({type: 'account'})
+    }
+    if (item && item.name === 'Settings') {
+      dispatch({type: 'settings'})
+    }  
+  }
+}
+
   initializeIcons();
   return (
     <Nav
+      onLinkClick={_onLinkClick}
       groups={links}
       selectedKey='key1'
       styles={navigationStyles}
     />
   );
 };
+
 
 export default Navigation;

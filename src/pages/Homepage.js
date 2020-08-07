@@ -8,6 +8,9 @@ import hero from '../images/hero_image.svg'
 import icon1 from '../images/trend.svg'
 import demoview from '../images/demov.GIF'
 import nyse from '../images/nyse.svg'
+import idea from '../images/idea.svg'
+import cloud from '../images/cloud.svg'
+import nasdaq from '../images/nasdaq.svg'
 
 const Homepage = () => {
     return (<div>
@@ -21,18 +24,21 @@ const Homepage = () => {
     </div>
     <div className="blue-container">
      <div className="container">
-       <ul>
+       <ul className="ul-blue">
          <li>
-           <img src={icon1} alt="icon 1"/>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+           <img src={icon1} alt="icon 1" id="icc11"/>
+           <p>Get accurate financial data for more than 6,000 tickers. Everything you need is in our dashboard. Sentiment Analysis, Financials, Market Data and Charts.
+           </p>
          </li>
          <li>
-           <img src={icon1} alt="icon 2"/>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+           <img src={idea} alt="icon 2"/>
+           <p>Validate your trading ideas from our indicators. Get updated data every 24 hours on each ticker from our proprietary Sentiment Algorithm.
+           </p>
          </li>
          <li>
-           <img src={icon1} alt="icon 3"/>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+           <img src={cloud} alt="icon 3"/>
+           <p>You have everything in our platform. No need to download anything. The software is hosted on our website, check the demo to try it now.
+           </p>
          </li>
        </ul>
 
@@ -56,19 +62,13 @@ const Homepage = () => {
    </div>
    <div className="container">
    <div className="imgcont">
-     <h2>We have over 2,000 stocks in the Database from more than 100 stock exhanges</h2>
+     <h2>We have over 6,000 stocks from the two biggest exchanges in the world</h2>
      <ul>
        <li>
-         <img src={nyse} alt="nyse"/>
+         <img src={nyse} id="nyse" alt="nyse"/>
        </li>
        <li>
-         <img src={nyse} alt="nyse2"/>
-       </li>
-       <li>
-         <img src={nyse} alt="nyse2"/>
-       </li>
-       <li>
-         <img src={nyse} alt="nyse2"/>
+         <img src={nasdaq} id="nasdaq" alt="nasdaq"/>
        </li>
      </ul>
       </div>

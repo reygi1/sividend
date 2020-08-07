@@ -5,17 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
   
-  const onNameChange = (event) =>  {
-    this.setState({name: event.target.value})
-    }
-  
-    const onEmailChange = (event) =>  {
-    this.setState({email: event.target.value})
-    }
-  
-    const onMessageChange = (event) => {
-    this.setState({message: event.target.value})
-    }
   
     const handleSubmit= (event) =>  {
   }
@@ -36,11 +25,11 @@ const Contact = () => {
         <label htmlFor="message">Message</label>
         <textarea className="form-control" rows="5"></textarea>
     </div>
-    <button style={{marginBottom: "3em"}} type="submit" className="btn btn-primary">Submit</button>
+    <button style={{marginBottom: "3em"}} type="reset" className="btn btn-primary">Submit</button>
 </form>
 
 <p>
-  You can contact us at: r3f23fr32r
+  You can also reach us at: contact@sividend.com
   <br />
   <br /> <br /> <br /> <br /> <br /> <br />
 </p>

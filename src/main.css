@@ -59,6 +59,9 @@ h2 {
     margin: 7% auto 7%;
 }
 
+.hide-desktop {
+    cursor: pointer;
+}
 .gray-container {
     background: #F6F6F6;
 }
@@ -123,7 +126,11 @@ ul.footer-links li a{
     margin-top: 88%;
 }
 
-nav ul {
+#icc11 {
+   width: 18%;
+}
+
+.header nav ul {
     position: fixed;
     width: 60%;
     top: 0;
@@ -135,7 +142,7 @@ nav ul {
     padding-top: 3em;
 }
 
-nav ul li a {
+.header nav ul li a {
     color: white;
     text-decoration: none;
     width: 100%;
@@ -144,7 +151,19 @@ nav ul li a {
     background-color: rgb(64, 67, 70);
 }
 
-nav ul li a:hover {
+.imgcont ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.imgcont img {
+    max-width: 100%;
+}
+
+ nav ul li a:hover {
     background-color:  rgb(92, 96, 100);
 }
 
@@ -154,6 +173,8 @@ nav ul li a:hover {
     text-align: right;
     padding: 0 1.4em;
 }
+
+
 
 .exit-btn img {
     width: 15px;
@@ -228,7 +249,7 @@ nav ul li a:hover {
         display: flex;
     }
 
-    nav ul {
+    .header nav ul {
         width: 40%;
     }
 
@@ -276,7 +297,7 @@ nav ul li a:hover {
         display: none;
     }
 
-    nav ul {
+    .header nav ul {
         position: inherit;
         width: auto;
         background: none;
@@ -285,18 +306,18 @@ nav ul li a:hover {
         padding-top: 0;
     }
 
-    nav ul li {
+    .header nav ul li {
         float: left;
     }
 
-    nav ul li a {
+    .header nav ul li a {
         color: #0078D4;
         background-color: inherit;
         text-align: center;
         padding: 1em 2em;
     }
 
-    nav ul li a:hover {
+    header.nav ul li a:hover {
         background-color: inherit;
     }
 
