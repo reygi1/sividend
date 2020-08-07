@@ -6,7 +6,7 @@ import '../main.css'
 
 import hero from '../images/hero_image.svg'
 import icon1 from '../images/trend.svg'
-import demoview from '../images/demov.GIF'
+import demoview from '../images/demovv.gif'
 import nyse from '../images/nyse.svg'
 import idea from '../images/idea.svg'
 import cloud from '../images/cloud.svg'
