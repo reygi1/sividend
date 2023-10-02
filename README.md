@@ -4,8 +4,6 @@
 # Sividend - Sentiment Analysis For Individual Traders
 > A website that gives you sentiment analysis score of stocks from News Articles, Twitter and Social Media for Traders (Stocktwits).
 
-Official website: [sividend.com](https://sividend.com) <br>
-Demo: [sividend.com/demo](https://sividend.com/demo) <br>
 Back-end repo:  [backend](https://github.com/reygj/sividend-server/)<br>
 
 
